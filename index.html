@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accueil - BuildPixel</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* HEADER */
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #1abc9c;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 1rem 0 2rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+    }
+
+    /* CONTENU */
+    .container {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .text-section {
+      flex: 1 1 300px;
+    }
+
+    .text-section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .text-section p {
+      line-height: 1.6;
+    }
+
+    .image-section {
+      flex: 1 1 300px;
+      text-align: center;
+    }
+
+    .image-section img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">BuildPixel</div>
+      <div class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="projets.html">Projets</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1>Bienvenue chez BuildPixel</h1>
+      <p>Ingénieure en Génie Logiciel & passionnée de graphisme</p>
+    </div>
+  </header>
+
+  <section class="container">
+    <div class="text-section">
+      <h2>À propos de moi</h2>
+      <p>
+        Je suis ingénieure en génie logiciel, passionnée également par tout ce qui touche au graphisme, au montage et à la création visuelle. Chez BuildPixel, j’aide les entreprises à renforcer leur image de marque en créant des logos, des montages et divers visuels pour booster leur communication et leur croissance.
+      </p>
+    </div>
+    <div class="image-section">
+      <img src="C:\Users\hp\Desktop\buildpixel-site\ChatGPT Image 5 juin 2025, 11_57_42.png" alt="Image de présentation" />
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 BuildPixel. Tous droits réservés.
+  </footer>
+
+</body>
+</html>
